@@ -4,7 +4,12 @@ public class Switchcase {
 		
 		Scanner keyboard = new Scanner(System.in);
 		
-		System.out.println("Enter this people's role");
+		System.out.println("Choose the people's role" );
+		System.out.println( "1,Admin" );
+		System.out.println( "2,Faculty" );
+		System.out.println( "3,Student" );
+		System.out.println( "4,Admin" );
+		System.out.println( "5,Guest" );
 		String role =keyboard .nextLine();
 		String a,b,c,d,e;
 		a="Admin";
